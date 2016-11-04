@@ -3,22 +3,6 @@
 	margin:auto;
 }
 
-.center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  
-  width: 40%;
-  height: 50%;
-
-  padding: 20px;  
-  background: pink;
-  color: black;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-}
-
 .fountainTextG{
 	color:rgb(0,0,0);
 	font-family:Arial;
@@ -164,12 +148,18 @@
 	}
 }
 
-.centre { /* fails at being Australian because centre was spelled as center before */
-    position: absolute;
-    width: 100px
-    height: 50px
-    top: 50%
-    left: 50%;
-    margin-left: -50px; /* margin is -0.5 * dimension */
-    margin-top: -25px; 
+.center { /* how to not australian */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 40%;
+  height: 50%;
+
+  padding: 20px;  
+  background: red;
+  color: black;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
