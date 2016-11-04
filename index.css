@@ -148,7 +148,7 @@
 	}
 }
 
-.center {
+.centre { /* fails at being Australian because centre was spelled as center before */
     position: absolute;
     width: 100px;
     height: 50px;
