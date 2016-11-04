@@ -158,7 +158,7 @@
     margin-top: -25px; 
 }
 
-.centre_2 { /* fails at being Australian because centre was spelled as center before */
+.centre2 { /* fails at being Australian because centre was spelled as center before */
     position: absolute;
     width: 500px;
     height: 100px;
@@ -168,7 +168,7 @@
     margin-top: -25px; 
 }
 
-.centre_3 { /* fails at being Australian because centre was spelled as center before */
+.centre3 { /* fails at being Australian because centre was spelled as center before */
     position: absolute;
     width: 500px;
     height: 100px;
