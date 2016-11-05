@@ -4,8 +4,8 @@
   top: 50%;
   transform: translate(-50%, -50%);
   
-  width: 40%;
-  height: 50%;
+  width: 52.5%;
+  height: 66%;
 
   padding: 20px;  
   background: rgb(244, 92, 66);
@@ -15,6 +15,6 @@
   clear: both;
 }
 
-/*body {
+body {
   background: rgb(61, 55, 53);
-}*/
+}
