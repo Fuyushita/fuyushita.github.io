@@ -32,6 +32,8 @@ body {
 	/*basic styles*/
 	width: 250px;  height: 50px;  color: white; background-color: #d46d45;
 	text-align: center;  font-size: 30px;  line-height: 50px;
+	left: 50%;
+	top: 50%;
 	
 	
 	/*gradient styles*/
