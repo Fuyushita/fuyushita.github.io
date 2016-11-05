@@ -26,3 +26,44 @@ body {
   font-weight:normal;
   font-style:normal;
 }
+
+.button {
+	
+	/*basic styles*/
+	width: 250px;  height: 50px;  color: white; background-color: #d46d45;
+	text-align: center;  font-size: 30px;  line-height: 50px;
+	
+	
+	/*gradient styles*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d46d45), to(#b1432a));
+	background: -moz-linear-gradient(19% 75% 90deg,#b1432a, #d46d45);
+	
+	/*border styles*/
+	border-top: solid 2px #e28d79;
+	border-bottom: solid 1px #51281f;
+	border-right: solid 1px #d46d45;
+	border-left: solid 1px #d46d45;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	
+}
+ 
+ 
+.button p {
+	font-size: 25px;
+	line-height: 50px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+ 
+a {
+	text-decoration: none;
+	color: fff;
+}
+ 
+.button:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b1432a), to(#d46d45));
+	background: -moz-linear-gradient(19% 75% 90deg,#d46d45, #b1432a);
+	border-top: solid 2px #b1432a;
+	border-bottom: solid 1px #e28d79;
+}
