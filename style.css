@@ -1,0 +1,19 @@
+#wrap { /* how to australian */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 40%;
+  height: 50%;
+
+  padding: 20px;  
+  background: rgb(244, 92, 66);
+  color: black;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: rgb(61, 55, 53);
+}
