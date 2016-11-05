@@ -49,18 +49,13 @@ body {
 	
 }
  
- 
-.button p {
-	font-size: 25px;
-	line-height: 50px;
-	font-family: 'Trebuchet MS', sans-serif;
-}
- 
-a {
+.button a {
 	text-decoration: none;
-	color: fff;
+	color: white;
+  	font-family:Arial;
+  	font-size: 25px;
+  	line-height: 0px;
 }
- 
 .button:hover {
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b1432a), to(#d46d45));
 	background: -moz-linear-gradient(19% 75% 90deg,#d46d45, #b1432a);
