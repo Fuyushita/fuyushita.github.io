@@ -1,9 +1,10 @@
 {
-  "name": "socket-chat-example",
+  "name": "msg",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "private": "true",
+  "description": "msg app thing",
   "dependencies": {
-    "express": "4.10.2",
-    "socket.io": "1.2.0"
+    "express": "*",
+    "socket.io": "*"
   }
 }
